@@ -1,34 +1,22 @@
-# 引入bootstrap
-
-1. 下载源码
-2. 通过npm安装
-3. 使用cdn
-
-# 使用bootstrap
-
-```html
-<linkrel="stylesheet"href="./dist/css/bootstrap.min.css">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./dist/css/bootstrap.min.css">
+</head>
+<body>
     
-    
-<script src="./jQuery.js"></script>
-<script src="dist/js/bootstrap.min.js"></script> 
-```
-
-# 布局
-
-```html
-  <div class="container" style="background-color:pink;">
+    <!-- 布局容器 -->
+    <div class="container" style="background-color:pink;">
        .container用于固定宽度并且支持响应式布局的容器
     </div>
     <div class="container-fluid" style="background-color:red ;">
         .container-fluid用于100%宽度，占据全部视口容器
     </div>
-```
-
-# 栅格
-
-~~~html
-  <!-- 栅格系统 -->
+    <!-- 栅格系统 -->
     <div class="container">
         <div class="row">
             <!-- 列元素 col-xs-num col-sm-num col-md-num col-lg-num -->
@@ -72,75 +60,38 @@
             </div>
         </div>
     </div>
-~~~
 
-![image-20210714160042623](https://i.loli.net/2021/07/14/rfbIkTxU8Rqzav5.png)
-
-# 常用样式
-
- small标签可以添加副标题
-
-  段落：可以通过.lead来突出强调内容
-
-  <small>小号字体
-
-  <b><strong>：加粗
-
-  <i><em>:斜体
-
-## 强调
-
-定义了一套类名，通过颜色来表示强调
-
-.text-muted:提示，使用浅灰色
-
-text-primary：主要，使用蓝色
-
-text-success：成功，使用浅绿色
-
-text-info：通知信息，使用浅绿色
-
-text-warning：警告，使用黄色
-
-text-danger：危险，使用褐色
-
-## 对齐
-
-text-left：左对齐
-
-text-right：右对齐
-
-text-center：中间对齐
-
-text-justify：两端对齐
-
-# 列表
-
-无序列表
-
-~~~html
-<ul><li>.....</li></ul>
-~~~
+    <!-- 常用样式 
+    small标签可以添加副标题
+    段落：可以通过.lead来突出强调内容
+    <small>小号字体
+    <b><strong>：加粗
+    <i><em>:斜体
+    强调
 
 
+    -->
+    <h1 class="h1">你好<small>1111111</small></h1>
+    <h2>你好</h2>
+    <h3>你好</h3>
+   <p class="lead"><small>15521</small><b>25651</b><i>669514</i><em>115155</em><strong>464154545151</strong></p>
+   <button class="text-info">145555</button>
+   <button class="text-success">145555</button>
+   <button class="text-danger">145555</button>
 
-有序列表
 
-~~~html
-<ol><li>....</li></ol>
-~~~
+   <!-- 列表 
+    无序列表
+    有序列表
+    定义列表
+    去点列表
+    class="list-unstyled"
+    内联列表
+    class="list-inline"
+-->
 
-定义列表
 
-~~~html
-<dl><dt>...</dt><dd>...</dd></dl>
-~~~
-
-内联列表
-
-~~~html
-class = "list-inline"
-去点列表
-class = "list-unstyled"
-~~~
-
+   <script src="./jQuery.js"></script>
+   <script src="dist/js/bootstrap.min.js"></script> 
+</body>
+</html>

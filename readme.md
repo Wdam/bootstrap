@@ -144,3 +144,123 @@ class = "list-inline"
 class = "list-unstyled"
 ~~~
 
+# 表格
+
+## 基础样式
+
+.table :基础样式
+
+## 附加样式
+
+table-striped：斑马线表格
+
+table-bordered：带边框的表格
+
+table-hover：鼠标悬停时高亮
+
+table-condensed：紧凑表格
+
+# 表单
+
+## 表单控件
+
+.form-control 	input-lg	input-sm
+
+输入框
+
+~~~html
+<div class="row">
+    <div class="col-md-3">
+        <input type="text" class="form-control "> 
+    </div>
+</div>
+~~~
+
+下拉选择
+
+~~~html
+<div class="row">
+    <div class="col-md-3">
+        <select name="" id="" class="form-control">
+            <option value="">请选择城市</option>
+            <option value="">北京</option>
+            <option value="">天津</option>
+            <option value="">河北</option>
+        </select>
+    </div>
+</div>
+~~~
+
+文本域
+
+~~~html
+<div class="row">
+    <div class="col-md-3">
+            <textarea name="" id="" cols="30" rows="10" class="form-control"></textarea>
+    </div>
+</div>
+~~~
+
+选框
+
+~~~HTML
+<div class="container">
+    <!-- 垂直显示 -->
+        <div class="col-md-3">
+            <div class="radio">
+                <label for=""><input type="radio"/>男</label>
+            </div>
+            <div class="radio">
+                <label for=""><input type="radio" />女</label>
+            </div>
+        </div>
+        <!-- 水平方向 -->
+        <div class="row">
+            <div class="col-md-3">
+                <label class="radio-inline">
+                    <input type="radio" name="" id=""> 测试
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="" id=""> 测试
+                </label>
+                </div>
+            </div>
+        </div>
+</div>
+~~~
+
+## 按钮
+
+基础样式：btn
+
+` <button class="btn">按钮</button>` 
+
+附加样式
+
+btn-primary
+
+btn-info
+
+btn-sucess
+
+btn-warning
+
+btn-danger
+
+btn-link
+
+btn-defualt
+
+ ~~~html
+   <button class="btn btn-anger">按钮</button>
+     <button class="btn btn-primary">按钮</button>
+     <button class="btn btn-info">按钮</button>
+     <button class="btn btn-success">按钮</button>
+     <button class="btn btn-default">按钮</button>
+     <button class="btn btn-warning">按钮</button>
+     <button class="btn btn-link">按钮</button>
+     <button class="btn btn-anger">按钮</button>
+ ~~~
+
+
+
